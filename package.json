@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "esbuild bin/*.js bin/*.css --watch --outdir=bin/whatever --servedir=bin --serve-fallback=bin/index.html"
+    "start": "esbuild bin/*.js bin/*.css --watch --outdir=bin/whatever --servedir=bin --serve-fallback=bin/index.html",
+    "postinstall": "lix download"
   },
   "devDependencies": {
     "esbuild": "^0.27.0",
