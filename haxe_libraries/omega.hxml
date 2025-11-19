@@ -1,0 +1,14 @@
+-lib tink_onbuild
+-lib tink_web
+
+-cp src
+
+-D js-es=6
+-D js-enums-as-arrays
+-D no-deprecation-warnings
+-D analyzer-optimize
+-D tink_state_ignore_binding_cascade_because_I_am_a_naughty_naughty_boy
+
+--macro omega.theming.Define.init()
+
+-dce full

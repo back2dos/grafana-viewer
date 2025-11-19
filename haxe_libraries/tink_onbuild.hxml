@@ -1,0 +1,5 @@
+# @install: lix --silent download "gh://github.com/haxetink/tink_onbuild#60d3a7c6c648747d2b1e6e3f5492d2486340420d" into tink_onbuild/0.1.0/github/60d3a7c6c648747d2b1e6e3f5492d2486340420d
+-lib tink_core
+-lib tink_priority
+-cp ${HAXE_LIBCACHE}/tink_onbuild/0.1.0/github/60d3a7c6c648747d2b1e6e3f5492d2486340420d/src
+-D tink_onbuild=0.1.0

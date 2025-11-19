@@ -1,0 +1,9 @@
+-lib grafana-viewer
+-lib no-spoon
+
+-D tink_core_no_error_pos
+
+-main Main
+-js bin/app.js
+
+--macro tools.Minify.output()

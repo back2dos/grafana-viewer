@@ -1,0 +1,4 @@
+-lib grafana-viewer
+-D dev
+-main Main
+-js bin/app.js
